@@ -1,6 +1,7 @@
 import React from "react";
 import ASideLayout from "../layout/ASideLayout";
+import CrudTableLayout from "@/layout/CrudTableLayout";
 
-export default function Home() {
-  return <ASideLayout>Home</ASideLayout>;
+export default function HomePage() {
+  return <ASideLayout>Home Page</ASideLayout>;
 }

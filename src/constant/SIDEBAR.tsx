@@ -1,11 +1,11 @@
 export const SIDEBAR_ITEMS: TSidebarItem[] = [
   {
-    name: "Overview",
-    link: "#",
+    name: "Dashboard",
+    link: "/",
     icon: (
       <svg
         aria-hidden="true"
-        className="w-6 h-6 text-gray-400 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+        className="w-6 h-6"
         fill="currentColor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
@@ -16,20 +16,27 @@ export const SIDEBAR_ITEMS: TSidebarItem[] = [
     ),
   },
   {
+    name: "Users Management",
+    link: "/manage/users",
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          fillRule="evenodd"
+          d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z"
+          clipRule="evenodd"
+        />
+      </svg>
+    ),
+  },
+  {
     name: "Pages",
     link: "#",
     icon: (
-      <svg
-        aria-hidden="true"
-        className="flex-shrink-0 w-6 h-6 text-gray-400 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
         <path
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z"
-          clip-rule="evenodd"
+          clipRule="evenodd"
         ></path>
       </svg>
     ),
