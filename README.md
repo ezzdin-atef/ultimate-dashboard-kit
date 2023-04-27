@@ -36,11 +36,11 @@ Let's go to `http://localhost:3000` to view the dashboard
 - Form UI Components
 - Users Management Page
 - Loading Page
+- 404 Page
 
 ## Upcoming Features
 
 - Statistics Page
-- 404 Page
 - Settings Page
 - Register Page
 - Easy way for adding standard new pages (Standard Table with CRUD Operations)

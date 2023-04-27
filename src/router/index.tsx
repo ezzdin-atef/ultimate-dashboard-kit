@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import HomePage from "../pages/Home";
 import LoginPage from "@/pages/Login";
 import UsersManagementPage from "@/pages/UsersManagementPage";
+import NotFoundPage from "@/pages/404";
 
 export const router = createBrowserRouter([
   {
@@ -20,5 +21,9 @@ export const router = createBrowserRouter([
         element: <UsersManagementPage />,
       },
     ],
+  },
+  {
+    path: "*",
+    element: <NotFoundPage />,
   },
 ]);
