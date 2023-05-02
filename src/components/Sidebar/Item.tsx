@@ -1,9 +1,13 @@
 import { closeSidebar } from "@/app/slices/sidebar.slice";
+import { RootState } from "@/app/store";
+import clsx from "clsx";
 import React from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 export default function Item({ name, icon, link }: TSidebarItem) {
+  const isCollapsed = useSelector((state: RootState) => state.sidebar.isCollapsed);
+
   return (
     <li>
       <Link
@@ -13,7 +17,7 @@ export default function Item({ name, icon, link }: TSidebarItem) {
         <div className="w-6 h-6 text-gray-400 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white">
           {icon}
         </div>
-        <span className="ml-3">{name}</span>
+        <span className={clsx({ "ml-3": true, hidden: isCollapsed })}>{name}</span>
       </Link>
     </li>
   );

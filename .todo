@@ -17,6 +17,7 @@ features:
 Enhancments: 
   ☐ When click one item in sidebar mobile close sidebar
   ☐ Active styles on active links in sidebar
+  ☐ when click outside the sidebar on mobile or in colapsed mode close the dropdown
 
 
 Issues: 
