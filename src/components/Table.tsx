@@ -86,7 +86,8 @@ export default function CustomTable({ data, columns, isFilterableByField }: Cuso
               )}
           </div>
         )}
-        <table className="min-w-full divide-y divide-gray-200 table-fixed dark:divide-gray-600 text-sm">
+        {/* For desktop view */}
+        <table className="min-w-full table-fixed dark:divide-gray-600 text-sm hidden md:table">
           <thead className="bg-gray-100 dark:bg-gray-700 text-xs uppercase text-slate-700">
             {table.getHeaderGroups().map((headerGroup) => (
               <tr key={headerGroup.id} className="border-b">
@@ -128,6 +129,29 @@ export default function CustomTable({ data, columns, isFilterableByField }: Cuso
             })}
           </tbody>
         </table>
+
+        {/* For mobile view */}
+        <div className="mt-3 grid grid-cols-1 gap-5 md:hidden  divide-gray-200">
+          {table.getRowModel().rows.map((row) => {
+            return (
+              <div
+                key={row.id}
+                className="flex flex-col justify-center divide-y divide-gray-200 border border-gray-200 rounded bg-white px-3 py-2 overflow-x-auto"
+              >
+                {table.getHeaderGroups().map((headerGroup) => {
+                  return headerGroup.headers.map((header) => (
+                    <div className="grid grid-cols-2 py-3 items-center justify-center">
+                      <p className="select-none text-gray-600">
+                        {header.isPlaceholder ? null : flexRender(header.column.columnDef.header, header.getContext())}
+                      </p>
+                      <p>{row.getValue(header.column.id)}</p>
+                    </div>
+                  ));
+                })}
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

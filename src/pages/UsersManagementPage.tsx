@@ -23,7 +23,7 @@ export default function UsersManagementPage() {
             email: el.email,
             role: el.role,
             actions: (
-              <div className="flex gap-1 items-center">
+              <div className="inline-flex gap-1 items-center">
                 <button type="button" className="focus:outline-none text-xs text-blue-600 font-medium hover:underline">
                   Edit
                 </button>
