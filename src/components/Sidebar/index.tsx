@@ -19,8 +19,9 @@ export default function Sidebar({ items }: TSidebar) {
         className={clsx({
           "md:flex fixed top-0 left-0 z-30 flex-col flex-shrink-0 h-full mt-16 font-normal duration-75 lg:flex transition-width":
             true,
-          "hidden w-16": isCollapsed,
+          "w-64 md:w-16": isCollapsed,
           "w-64": !isCollapsed,
+          hidden: !isOpen,
         })}
         aria-label="Sidenav"
       >
