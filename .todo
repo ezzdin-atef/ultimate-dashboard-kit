@@ -19,9 +19,10 @@ features:
 Enhancments: 
   ✔ Table responsive in cards view @done(23-05-02 14:23)
   ☐ When click one item in sidebar mobile close sidebar
-  ☐ Active styles on active links in sidebar
+  ✔ Active styles on active links in sidebar @done(23-05-02 14:28)
   ☐ when click outside the sidebar on mobile or in colapsed mode close the dropdown
 
 
 Issues: 
   ☐ When switch between pages, all components rerenders
+  ☐ Dropdown sidebar active styles
