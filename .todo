@@ -16,6 +16,7 @@ features:
   ✔ Sidebar Collapsing @done(23-05-02 14:03)
 
 Enhancments: 
+  ✔ Table responsive in cards view @done(23-05-02 14:23)
   ☐ When click one item in sidebar mobile close sidebar
   ☐ Active styles on active links in sidebar
   ☐ when click outside the sidebar on mobile or in colapsed mode close the dropdown
