@@ -1,6 +1,6 @@
-# Ultimate Dashboard
+# Ultimate Dashboard Kit
 
-Ultimate Dashboard is project aims to help building dashboards for multiple purposes faster and more flexible to move the headache of building Pages and UI components for dashboards to move focus into more important areas.
+Ultimate Dashboard Kit is project aims to help building dashboards with plenty of components and utilities for multiple purposes faster and more flexible to move the headache of building Pages and UI components for dashboards to move focus into more important areas.
 
 ## Technologies built with
 
