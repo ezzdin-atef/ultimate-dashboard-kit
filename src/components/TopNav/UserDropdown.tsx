@@ -1,10 +1,15 @@
+import useClickOutside from "@/hooks/useClickOutside";
 import React, { useState } from "react";
 
 export default function UserDropdown() {
   const [isOpen, setIsOpen] = useState(false);
+  const { ref } = useClickOutside({
+    condition: isOpen,
+    fn: () => setIsOpen(false),
+  });
 
   return (
-    <div className="relative">
+    <div className="relative" ref={ref}>
       <button
         className="w-8 text-white focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-full text-sm text-center inline-flex items-center dark:focus:ring-gray-800 overflow-hidden"
         type="button"

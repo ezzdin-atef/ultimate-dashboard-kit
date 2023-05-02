@@ -8,7 +8,7 @@ export default function ASideLayout({ children }: { children: React.ReactNode })
     <div className="bg-gray-50 dark:bg-gray-800">
       <TopNav />
       <Sidebar items={SIDEBAR_ITEMS} />
-      <div className="pl-64 pt-16 min-h-screen flex-grow">{children}</div>
+      <div className="md:pl-64 pt-16 min-h-screen flex-grow">{children}</div>
     </div>
   );
 }

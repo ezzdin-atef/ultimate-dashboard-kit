@@ -1,0 +1,23 @@
+features: 
+  ✔ Login Page @done(23-05-02 13:25)
+  ✔ Table Component @done(23-05-02 13:25)
+  ✔ Users Management Page @done(23-05-02 13:25)
+  ☐ Form UI Components
+  ✔ Loading Page @done(23-05-02 13:25)
+  ✔ 404 Page @done(23-05-02 13:25)
+  ☐ Statistics Page
+  ☐ Settings Page
+  ☐ Register Page
+  ☐ Easy way for adding standard new pages (Standard Table with CRUD Operations)
+  ☐ Esay way for building forms with simple inputs
+  ☐ Esay way for building forms with complex UI form inputs
+  ☐ RTL Support
+  ☐ Suport mulitple languages
+
+Enhancments: 
+  ☐ When click one item in sidebar mobile close sidebar
+  ☐ Active styles on active links in sidebar
+
+
+Issues: 
+  ☐ When switch between pages, all components rerenders
