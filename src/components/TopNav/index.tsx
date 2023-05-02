@@ -12,7 +12,7 @@ export default function TopNav() {
     <div className="flex items-center justify-between px-3 py-3 h-16 fixed z-30 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
       <div className="flex items-center gap-2">
         <button className="cursor-pointer" onClick={() => dispatch(toggleSidebar())}>
-          <img src="/icons/bars.svg" alt="bars-menu" width={25} />
+          <img src="./icons/bars.svg" alt="bars-menu" width={25} />
         </button>
 
         <h1 className="text-2xl font-normal">
