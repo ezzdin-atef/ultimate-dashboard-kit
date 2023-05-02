@@ -13,6 +13,7 @@ features:
   ☐ Esay way for building forms with complex UI form inputs
   ☐ RTL Support
   ☐ Suport mulitple languages
+  ✔ Sidebar Collapsing @done(23-05-02 14:03)
 
 Enhancments: 
   ☐ When click one item in sidebar mobile close sidebar
