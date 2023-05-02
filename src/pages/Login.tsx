@@ -75,14 +75,14 @@ export default function LoginPage() {
                 type="button"
                 className="gap-1 w-full border text-center bg-transparent hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center items-center"
               >
-                <img src="./icons/google.svg" alt="google icon" width={18} />
+                <img src="/icons/google.svg" alt="google icon" width={18} />
                 Sign in with Google
               </button>
               <button
                 type="button"
                 className="gap-1 w-full border text-center bg-transparent hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center items-center"
               >
-                <img src="./icons/github.svg" alt="google icon" width={18} />
+                <img src="/icons/github.svg" alt="google icon" width={18} />
                 Sign in with Github
               </button>
             </div>

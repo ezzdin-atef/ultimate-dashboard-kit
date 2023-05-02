@@ -15,7 +15,7 @@ export default function UserDropdown() {
         type="button"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <img src="./images/avatar.jpg" alt="avatar" className="w-full" />
+        <img src="/images/avatar.jpg" alt="avatar" className="w-full" />
       </button>
       {isOpen && (
         <div className="absolute right-0 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
