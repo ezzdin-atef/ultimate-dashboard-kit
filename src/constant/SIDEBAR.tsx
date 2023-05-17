@@ -1,7 +1,7 @@
 export const SIDEBAR_ITEMS: TSidebarItem[] = [
   {
     name: "Dashboard",
-    link: "/",
+    link: "/manage",
     icon: (
       <svg
         aria-hidden="true"
@@ -29,7 +29,7 @@ export const SIDEBAR_ITEMS: TSidebarItem[] = [
     ),
   },
   {
-    name: "Pages",
+    name: "Components",
     link: "#",
     icon: (
       <svg aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -42,8 +42,8 @@ export const SIDEBAR_ITEMS: TSidebarItem[] = [
     ),
     children: [
       {
-        name: "Settings",
-        link: "#",
+        name: "Forms",
+        link: "/components/forms",
       },
       {
         name: "Kanban",

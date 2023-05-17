@@ -4,5 +4,5 @@ import CrudTableLayout from "@/layout/CrudTableLayout";
 import LoadingPage from "./LoadingPage";
 
 export default function HomePage() {
-  return <ASideLayout>Home Page</ASideLayout>;
+  return <div>Home Page</div>;
 }

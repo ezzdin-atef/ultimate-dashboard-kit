@@ -1,5 +1,7 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import CustomTable from "@/components/Table";
+import ASideTitle from "@/components/typograph/ASideTitle";
+import AsideDescription from "@/components/typograph/AsideDescription";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -10,8 +12,8 @@ export default function CrudTableLayout(props: CrudTableLayoutProps) {
         <Breadcrumb currentPageName={props.name || props.title} />
         <div className="flex-row items-center justify-between pt-5 space-y-3 sm:flex sm:space-y-0 sm:space-x-4">
           <div>
-            <h5 className="text-lg mr-3 font-semibold dark:text-white">{props.title}</h5>
-            {props.description && <p className="text-gray-500 dark:text-gray-400">{props.description}</p>}
+            <ASideTitle>{props.title}</ASideTitle>
+            {props.description && <AsideDescription>{props.description}</AsideDescription>}
           </div>
           <div className="flex gap-2">
             {!props.disableSearch && (

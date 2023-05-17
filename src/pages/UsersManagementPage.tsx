@@ -5,7 +5,7 @@ import { usersData } from "@/data/faker";
 
 export default function UsersManagementPage() {
   return (
-    <ASideLayout>
+    <div>
       <CrudTableLayout
         title="Users"
         description="Manage all your existing users or add a new one"
@@ -36,6 +36,6 @@ export default function UsersManagementPage() {
           })),
         }}
       />
-    </ASideLayout>
+    </div>
   );
 }

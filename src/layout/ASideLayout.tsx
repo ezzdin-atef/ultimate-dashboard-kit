@@ -5,8 +5,9 @@ import { SIDEBAR_ITEMS } from "@/constant/SIDEBAR";
 import { useSelector } from "react-redux";
 import { RootState } from "@/app/store";
 import clsx from "clsx";
+import { Outlet } from "react-router-dom";
 
-export default function ASideLayout({ children }: { children: React.ReactNode }) {
+export default function ASideLayout() {
   const isCollapsed = useSelector((state: RootState) => state.sidebar.isCollapsed);
 
   return (
@@ -16,7 +17,7 @@ export default function ASideLayout({ children }: { children: React.ReactNode })
       <div
         className={clsx({ "pt-16 min-h-screen flex-grow": true, "md:pl-64": !isCollapsed, "md:pl-16": isCollapsed })}
       >
-        {children}
+        <Outlet />
       </div>
     </div>
   );
