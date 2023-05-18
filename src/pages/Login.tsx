@@ -12,7 +12,13 @@ export default function LoginPage() {
               </h1>
               <p className="my-1 text-gray-600 text-sm">Sign in to your account</p>
             </header>
-            <form className="space-y-4 md:space-y-6">
+            <form
+              className="space-y-4 md:space-y-6"
+              onSubmit={(e) => {
+                e.preventDefault();
+                window.location.href = "/manage";
+              }}
+            >
               <div>
                 <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
                   Your email

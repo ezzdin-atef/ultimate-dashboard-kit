@@ -1,6 +1,6 @@
 import React from "react";
-import NotificationsButton from "../NotificationsButton";
-import ThemeToggleButton from "../ThemeToggleButton";
+import NotificationsButton from "../../NotificationsButton";
+import ThemeToggleButton from "../../ThemeToggleButton";
 import UserDropdown from "./UserDropdown";
 import { useDispatch } from "react-redux";
 import { toggleCollapse, toggleSidebar } from "@/app/slices/sidebar.slice";

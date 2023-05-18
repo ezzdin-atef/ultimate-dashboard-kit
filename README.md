@@ -41,13 +41,9 @@ Let's go to `http://localhost:3000` to view the dashboard
 ## Upcoming Features
 
 - Statistics Page
-- Settings Page
-- Register Page
-- Easy way for adding standard new pages (Standard Table with CRUD Operations)
-- Esay way for building forms with simple inputs
-- Esay way for building forms with complex UI form inputs
 - RTL Support
 - Suport mulitple languages
+- ...many more. Check `todo` file for more details
 
 ## Adding New Pages
 

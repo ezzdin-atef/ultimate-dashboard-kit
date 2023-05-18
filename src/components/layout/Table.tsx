@@ -18,7 +18,7 @@ import {
 import React from "react";
 
 import { RankingInfo, rankItem } from "@tanstack/match-sorter-utils";
-import { isUrl } from "../utils/isUrl";
+import { isUrl } from "@/utils/isUrl";
 import { FaSort, FaSortAmountDown, FaSortAmountUp, FaSortAmountUpAlt } from "react-icons/fa";
 
 declare module "@tanstack/table-core" {
@@ -140,11 +140,11 @@ export default function CustomTable({ data, columns, isFilterableByField }: Cuso
               >
                 {table.getHeaderGroups().map((headerGroup) => {
                   return headerGroup.headers.map((header) => (
-                    <div className="grid grid-cols-2 py-3 items-center justify-center">
-                      <p className="select-none text-gray-600">
+                    <div key={header.id} className="grid grid-cols-2 py-3 items-center justify-center">
+                      <span className="select-none text-gray-600">
                         {header.isPlaceholder ? null : flexRender(header.column.columnDef.header, header.getContext())}
-                      </p>
-                      <p>{row.getValue(header.column.id)}</p>
+                      </span>
+                      <span>{row.getValue(header.column.id)}</span>
                     </div>
                   ));
                 })}

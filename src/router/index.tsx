@@ -4,7 +4,8 @@ import LoginPage from "@/pages/Login";
 import UsersManagementPage from "@/pages/UsersManagementPage";
 import NotFoundPage from "@/pages/404";
 import ASideLayout from "@/layout/ASideLayout";
-import FormsComponentsPage from "@/pages/FormsComponentsPage";
+import FormsComponentsPage from "@/pages/UserSettings";
+import UserSettingsPage from "@/pages/UserSettings";
 
 export const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
       {
         path: "users",
         element: <UsersManagementPage />,
+      },
+      {
+        path: "settings",
+        element: <UserSettingsPage />,
       },
     ],
   },

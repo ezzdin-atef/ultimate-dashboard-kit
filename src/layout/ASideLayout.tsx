@@ -1,6 +1,6 @@
 import React from "react";
-import Sidebar from "@/components/Sidebar";
-import TopNav from "@/components/TopNav";
+import Sidebar from "@/components/layout/Sidebar";
+import TopNav from "@/components/layout/TopNav";
 import { SIDEBAR_ITEMS } from "@/constant/SIDEBAR";
 import { useSelector } from "react-redux";
 import { RootState } from "@/app/store";

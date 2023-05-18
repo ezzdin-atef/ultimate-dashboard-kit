@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Breadcrumb({ currentPageName, hideHome, prevPages }: BreadcrumbProps) {
   return (
-    <nav className="flex" aria-label="Breadcrumb">
+    <nav className="flex mb-3" aria-label="Breadcrumb">
       <ol className="inline-flex items-center space-x-1 md:space-x-3">
         {!hideHome && (
           <li className="inline-flex items-center">

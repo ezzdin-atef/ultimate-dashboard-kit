@@ -2,25 +2,40 @@ features:
   ✔ Login Page @done(23-05-02 13:25)
   ✔ Table Component @done(23-05-02 13:25)
   ✔ Users Management Page @done(23-05-02 13:25)
-  ☐ Form UI Components
+  ✔ Form UI Components @done(23-05-18 13:58)
   ✔ Loading Page @done(23-05-02 13:25)
   ✔ 404 Page @done(23-05-02 13:25)
   ☐ Statistics Page
-  ☐ Settings Page
+  ✔ Settings Page @done(23-05-18 13:58)
   ☐ Register Page
-  ☐ Easy way for adding standard new pages (Standard Table with CRUD Operations)
-  ☐ Esay way for building forms with simple inputs
-  ☐ Esay way for building forms with complex UI form inputs
   ☐ RTL Support
   ☐ Suport mulitple languages
   ✔ Sidebar Collapsing @done(23-05-02 14:03)
   ☐ Dark mode support
+  ☐ Custom Select Input
+  ☐ Radio Button
+  ☐ Checkbox Button
+  ☐ Toggle Input
+  ☐ Multiple Select Input
+  ☐ Searchable Select Input
+  ☐ Datepicker Input
+  ☐ Datepicker Range Input
+  ☐ PIN Input
+  ☐ Tabs Components
+  ☐ Skeleton Component
+  ☐ Popover Component
+  ☐ Tooltip Component
+  ☐ Toast Component
+  ☐ Banner Component
+  ☐ Alert Component
+  ☐ Avatar Component
 
 Enhancments: 
   ✔ Table responsive in cards view @done(23-05-02 14:23)
   ☐ When click one item in sidebar mobile close sidebar
   ✔ Active styles on active links in sidebar @done(23-05-02 14:28)
   ☐ when click outside the sidebar on mobile or in colapsed mode close the dropdown
+  ☐ Split the project to packages with `lerna`
 
 
 Issues: 
