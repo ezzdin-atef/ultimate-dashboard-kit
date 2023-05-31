@@ -15,11 +15,11 @@ export default function TopNav() {
           <img src="/icons/bars.svg" alt="bars-menu" width={25} />
         </button>
         <button className="hidden md:block cursor-pointer" onClick={() => dispatch(toggleCollapse())}>
-          <img src="/icons/list-bullet.svg" alt="bars-menu" width={25} />
+          <img src="/icons/list-bullet.svg" alt="bars-menu" width={30} />
         </button>
 
-        <h1 className="text-2xl font-normal">
-          <span className="text-blue-600">Ezzdin</span> Atef
+        <h1 className="text-2xl font-bold">
+          <span className="text-blue-600">D</span>ashboard
         </h1>
       </div>
       <div className="flex items-center gap-2">
